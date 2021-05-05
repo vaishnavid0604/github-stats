@@ -1,9 +1,9 @@
-# [GitHub Stats Visualization](https://github.com/jstrieb/github-stats)
+# [GitHub Stats Visualization](https://github.com/vaishnavid0604/github-stats)
 
-<a href="https://github.com/jstrieb/github-stats">
+<a href="https://github.com/vaishnavid0604/github-stats">
 
-![](https://github.com/jstrieb/github-stats/blob/master/generated/overview.svg)
-![](https://github.com/jstrieb/github-stats/blob/master/generated/languages.svg)
+![](https://github.com/vaishnavid0604/github-stats/blob/master/generated/overview.svg)
+![](https://github.com/vaishnavid0604/github-stats/blob/master/generated/languages.svg)
 
 </a>
 
@@ -51,10 +51,7 @@ caches statistics for your repositories. Additionally, repositories that were
 last contributed to more than a year ago may not be included in the statistics
 due to limitations in the results returned by the API.
 
-For more information on inaccuracies, see issue
-[#2](https://github.com/jstrieb/github-stats/issues/2),
-[#3](https://github.com/jstrieb/github-stats/issues/3), and
-[#13](https://github.com/jstrieb/github-stats/issues/13).
+
 
 # Installation
 
@@ -66,7 +63,7 @@ For more information on inaccuracies, see issue
    Personal access token must have permissions: `read:user` and `repo`. Copy
    the access token when it is generated – if you lose it, you will have to
    regenerate the token.
-2. Click [here](https://github.com/jstrieb/github-stats/generate) to create a
+2. Click [here](https://github.com/vaishnavid0604/github-stats/generate) to create a
    fork of this repository
 3. If this is the README of your fork, click [this
    link](../../settings/secrets/actions) to go to the "Secrets" page.
@@ -82,7 +79,7 @@ For more information on inaccuracies, see issue
    - To show statistics only for "owned" repositories and not forks with
      contributions, add an environment variable (under the `env` header in the
      [main
-     workflow](https://github.com/jstrieb/github-stats/blob/master/.github/workflows/main.yml))
+     workflow](https://github.com/vaishnavid0604/github-stats/blob/master/.github/workflows/main.yml))
      called `EXCLUDE_FORKED_REPOS` with a value of `true`.
 6. Go to the [Actions
    Page](../../actions?query=workflow%3A"Generate+Stats+Images") and press "Run
@@ -96,9 +93,3 @@ For more information on inaccuracies, see issue
 9. Star this repo if you like it!
 
 
-# Related Projects
-
-- Inspired by a desire to improve upon
-  [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
-- Makes use of [GitHub Octicons](https://primer.style/octicons/) to precisely
-  match the GitHub UI
